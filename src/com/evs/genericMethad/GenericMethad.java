@@ -96,7 +96,7 @@ public class GenericMethad {
 	public void mouseover(WebElement target) {
 		Actions act = new Actions(driver);
 		act.moveToElement(target).build().perform();
-		;
+		
 	}
 
 	public void dishmissPopup() {
